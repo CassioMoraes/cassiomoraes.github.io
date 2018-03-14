@@ -3094,7 +3094,7 @@
 
 	body {
 		position: relative;
-		padding-top: 5em;
+		padding-top: 3em;
 	}
 
 	#header {
@@ -3368,7 +3368,7 @@
 		background-image: url("../images/banner.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 15% left;
+		background-position: 0% 70%;
 		text-align: left;
 		position: relative;
 		z-index: 9999;
@@ -3524,7 +3524,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 10em 0 8em 0;
+				padding: 12em 0 12em 0;
 			}
 
 		}
@@ -3532,7 +3532,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 8em 0 6em 0;
+				padding: 10em 0 10em 0;
 			}
 
 		}
