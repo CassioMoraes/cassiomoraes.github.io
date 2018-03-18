@@ -3579,13 +3579,13 @@
 		padding: 4em 0 2em 0;
 	}
 
-	#one {
+	#about {
 		padding: 6em 0 4em 0;
 	}
 
 		@media screen and (max-width: 980px) {
 
-			#one {
+			#about {
 				padding: 4em 0 2em 0;
 			}
 
@@ -3593,13 +3593,13 @@
 
 		@media screen and (max-width: 736px) {
 
-			#one {
+			#about {
 				padding: 2em 0 0.1em 0;
 			}
 
 		}
 
-	#two {
+	#blog {
 		padding: 6em 0 4em 0;
 		background: #f3f3f3;
 		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -3608,7 +3608,7 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
 	}
 
-		#two .inner {
+		#blog .inner {
 			display: -ms-flexbox;
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3620,21 +3620,21 @@
 			flex-direction: row;
 		}
 
-			#two .inner article {
+			#blog .inner article {
 				width: 50%;
 			}
 
-				#two .inner article:first-child {
+				#blog .inner article:first-child {
 					padding-right: 6em;
 				}
 
-				#two .inner article:last-child {
+				#blog .inner article:last-child {
 					padding-left: 6em;
 				}
 
 		@media screen and (max-width: 980px) {
 
-			#two {
+			#blog {
 				padding: 4em 0 2em 0;
 				background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
 				background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
@@ -3642,23 +3642,23 @@
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
 			}
 
-				#two .inner {
+				#blog .inner {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
 				}
 
-					#two .inner article {
+					#blog .inner article {
 						width: 100%;
 					}
 
-						#two .inner article:first-child {
+						#blog .inner article:first-child {
 							padding-right: 0;
 							padding-bottom: 2em;
 						}
 
-						#two .inner article:last-child {
+						#blog .inner article:last-child {
 							padding-left: 0;
 							padding-top: 2em;
 						}
@@ -3667,17 +3667,17 @@
 
 		@media screen and (max-width: 736px) {
 
-			#two {
+			#blog {
 				padding: 2em 0 0.1em 0;
 			}
 
 		}
 
-	#three {
+	#projects {
 		padding: 6em 0 4em 0;
 	}
 
-		#three .inner {
+		#projects .inner {
 			display: -ms-flexbox;
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3694,30 +3694,30 @@
 			-ms-flex-pack: justify;
 		}
 
-			#three .inner article {
+			#projects .inner article {
 				width: 26%;
 				display: block;
 			}
 
-				#three .inner article p {
+				#projects .inner article p {
 					color: #717171;
 				}
 
-				#three .inner article .icon {
+				#projects .inner article .icon {
 					color: #b3b3b3;
 					font-size: 3em;
 				}
 
 			@media screen and (max-width: 980px) {
 
-				#three .inner {
+				#projects .inner {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
 				}
 
-					#three .inner article {
+					#projects .inner article {
 						width: 100%;
 						margin: 0 auto;
 					}
@@ -3726,7 +3726,7 @@
 
 		@media screen and (max-width: 980px) {
 
-			#three {
+			#projects {
 				padding: 4em 0 2em 0;
 			}
 
@@ -3734,7 +3734,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			#three {
+			#projects {
 				padding: 2em 0 0.1em 0;
 			}
 
