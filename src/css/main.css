@@ -3957,8 +3957,17 @@
 
 		}
 
+	#footer .content {
+		display: inline-block;
+	}
+
+	#footer #footer-logo {
+		float: left;
+	}
+
 	#footer #social {
 		padding: 0 0 1em 0;
+		float: left;
 	}
 
 	#footer #social a {
