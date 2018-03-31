@@ -3616,6 +3616,18 @@
 
 		}
 
+		#about .inner #about-content {
+			margin-bottom: 2em;
+		}
+
+		#about .inner #about-content ul {
+			margin: 0;
+		}
+
+		#about .inner #about-content p {
+			margin: 0;
+		}
+
 	#blog {
 		padding: 3em 0 2em 0;
 		background: #f3f3f3;
