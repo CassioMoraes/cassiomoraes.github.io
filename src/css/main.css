@@ -3203,8 +3203,8 @@
 		position: fixed;
 		text-decoration: none;
 		height: 4em;
-		right: 3em;
-		top: .75em;
+		right: 0em;
+		top: 0em;
 		width: 4em;
 		display: none;
 		z-index: 10002;
@@ -3233,14 +3233,6 @@
 
 			.navPanelToggle {
 				display: block;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.navPanelToggle {
-				right: 1em;
 			}
 
 		}
